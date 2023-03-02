@@ -41,6 +41,14 @@
   --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@media screen and (max-width: 1199px) {
+  .feature-svg-list,
+  .feature-item,
+  .about {
+    display: none;
+  }
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-text-color);
@@ -77,7 +85,7 @@ img {
 }
 
 .container {
-  width: 1158px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -99,14 +107,16 @@ img {
 
 /* -----------------SECTIONS---general properties--------------- */
 
+.section {
+  letter-spacing: 0.02em;
+}
+
 .section-title {
   margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
   color: var(--primary-headings-color);
 }
 
@@ -115,18 +125,17 @@ img {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
   color: var(--primary-headings-color);
 }
+
 .section-text {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
-/* -----------LOGO--------------------- 
-*/
+/* ---------------------------LOGO---------------------*/
+
 .logo {
   display: block;
   margin-right: 75px;
@@ -300,68 +309,40 @@ img {
 }
 
 /* -----------------FEATURES------------------ */
-
-.fetures {
-  margin-top: 120px;
-  margin-bottom: 120px;
+.features {
+  margin-top: 96px;
+  margin-bottom: 96px;
 }
 
-.fetures-list {
-  display: flex;
+.features-list {
+  display: block;
 }
 
-.fetures-list .item {
-  margin-right: 24px;
-  width: 265px;
+.features-list .item {
+  margin-bottom: 72px;
+  width: 100%;
 }
 
-.fetures-list .item:nth-last-child(-n + 1) {
-  margin-right: 0;
+.features-list .item:nth-last-child(-n + 1) {
+  margin-bottom: 0;
 }
 
-.feature-title {
-  margin-top: 8px;
-}
-
-.feature-svg-list {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-}
-
-.feature-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 264px;
-  height: 112px;
-  border-radius: 4px;
-
-  background-color: #f4f4fd;
-}
-
-/* ---------------ABOUT---------- */
-
-.about {
-  margin-bottom: 120px;
-}
-
-.about-list {
-  display: flex;
-  gap: 24px;
+.features .section-title {
+  margin-bottom: 8px;
 }
 
 /* ---------------TEAM--------------------*/
 
 .team-section {
   background-color: var(--team-seaction-bcg-color);
-  padding-bottom: 120px;
-  padding-top: 120px;
+  padding-bottom: 128px;
+  padding-top: 96px;
 }
 
 .team-list {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 24px;
 }
 
