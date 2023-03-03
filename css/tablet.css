@@ -21,6 +21,24 @@
   }
   /* ---------------TEAM--------------------*/
   .team-section > .container {
-    max-width: 552px;
+    max-width: 582px;
+  }
+  .team-section {
+    padding-bottom: 104px;
+  }
+  .team-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .team-list .team-item {
+    width: calc((100% - 24px) / 2);
+    margin-right: 24px;
+    margin-bottom: 64px;
+  }
+  .team-list .team-item:nth-last-child(-n + 2) {
+    margin-bottom: 0;
+  }
+  .team-list .team-item:nth-child(2n) {
+    margin-right: 0;
   }
 }
