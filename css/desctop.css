@@ -131,6 +131,9 @@
   .second-footer-container {
     margin-right: 80px;
   }
+  .third-footer-container {
+    width: 453px;
+  }
   .subscribe-form {
     display: flex;
     flex-wrap: nowrap;
