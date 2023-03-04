@@ -111,4 +111,29 @@
   .customers-item:nth-child(3) {
     margin-right: 24px;
   }
+  /* --------------------------FOOTER---------------- */
+  .footer-section > .container {
+    max-width: 1158px;
+  }
+  .footer-section {
+    background-color: var(--footer-bcg-color);
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+  .footer-container {
+    display: flex;
+  }
+
+  .first-footer-container {
+    width: 264px;
+    margin-right: 120px;
+  }
+  .second-footer-container {
+    margin-right: 80px;
+  }
+  .subscribe-form {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
 }
