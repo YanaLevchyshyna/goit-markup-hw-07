@@ -84,4 +84,31 @@
   .team-list .team-item:nth-child(2) {
     margin-right: 24px;
   }
+
+  /* --------------C U S T O M E R S------------- */
+
+  .customers-section > .container {
+    max-width: 1158px;
+  }
+
+  .customers-section {
+    padding-top: 130px;
+    padding-bottom: 120px;
+  }
+
+  .customers-list {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .customers-item {
+    width: calc((100% - 120px) / 6);
+    margin-right: 24px;
+    height: 88px;
+    margin-bottom: 0;
+  }
+
+  .customers-item:nth-child(3) {
+    margin-right: 24px;
+  }
 }

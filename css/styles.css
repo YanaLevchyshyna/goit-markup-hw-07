@@ -395,18 +395,28 @@ img {
 /* --------------C U S T O M E R S------------- */
 
 .customers-section {
-  padding-top: 130px;
-  padding-bottom: 120px;
+  margin-top: 96px;
+  margin-bottom: 96px;
 }
 
 .customers-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
 }
 
 .customers-item {
-  width: calc((100% - 120px) / 6);
+  width: calc((100% - 16px) / 2);
+  margin-right: 16px;
+  margin-bottom: 72px;
   height: 88px;
+}
+
+.customers-item:nth-child(2n) {
+  margin-right: 0;
+}
+
+.customers-item:nth-last-child(-n + 2) {
+  margin-bottom: 0;
 }
 
 .customers-link {
