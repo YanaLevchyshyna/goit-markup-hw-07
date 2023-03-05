@@ -2,6 +2,33 @@
   .container {
     max-width: 766px;
   }
+  /* ----------------------------H E R O---------------- */
+  .hero-section {
+    padding-top: 111px;
+    padding-bottom: 108px;
+    max-width: 1199px;
+
+    background-color: var(--hero-bcg-color);
+    background-image: var(--l-gradient-color),
+      url(../images/hero-bg-tablet@1x.jpg);
+  }
+  @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+    screen and (min-resolution: 192dpi) and (min-width: 768px),
+    screen and (min-resolution: 2dppx) and (min-width: 768px) {
+    .hero-section {
+      background-color: var(--hero-bcg-color);
+      background-image: var(--l-gradient-color),
+        url('../images/hero-bg-tablet@2x.jpg');
+    }
+  }
+  .hero-title {
+    margin-bottom: 40px;
+    max-width: 496px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+  }
+  /*-------------------F E A T U R E S--------------------- */
   .features-list {
     display: flex;
     flex-wrap: wrap;
