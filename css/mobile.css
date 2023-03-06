@@ -1,6 +1,13 @@
+@media screen and (max-width: 1199px) {
+  .feature-svg-list,
+  .feature-item,
+  .about {
+    display: none;
+  }
+}
 @media screen and (min-width: 480px) {
   .container {
     max-width: 426px;
+    margin: 0 auto;
   }
-  /* ---------------TEAM--------------------*/
 }

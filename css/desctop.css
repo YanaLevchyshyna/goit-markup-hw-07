@@ -5,13 +5,25 @@
   .section-text {
     font-weight: 400;
   }
-  /* ---------------------------LOGO---------------------*/
+
+  /* -------------------------H E A D E R------------> */
 
   .logo {
     line-height: 1.33;
+    margin-right: 76px;
   }
 
-  /* ----------------------------H E R O-------------------- */
+  .contacts-list {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-right: auto;
+  }
+  .link-contacts:not(:last-child) {
+    margin-right: 40px;
+    margin-bottom: 0;
+  }
+  /* -------------------------H E R O-------------------- */
   .hero-section {
     padding-top: 188px;
     padding-bottom: 188px;
@@ -89,6 +101,10 @@
   .about-list {
     display: flex;
     gap: 24px;
+  }
+
+  .item-about {
+    width: calc(100% / 3 - 24px / 3 * 2);
   }
 
   /* --------------------------------TEAM--------------------*/
