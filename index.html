@@ -24,8 +24,8 @@
     <link rel="stylesheet" href="./css/desctop.css" />
   </head>
   <body>
-    <!--header-->
-    <!-- <header class="header">
+    <!--Header-->
+    <header class="header">
       <div class="container header-container">
         <nav class="header-nav">
           <a href="./index.html" class="logo link"
@@ -55,8 +55,86 @@
             </li>
           </ul>
         </address>
+        <!-- mobile-hamburger-menu -->
+        <button type="button" class="btn-menu-open" data-menu-open>
+          <svg class="hamburger-icon" width="32" height="22">
+            <use href="./images/symbol-defs.svg#hamburger"></use>
+          </svg>
+        </button>
       </div>
-    </header> -->
+      <div class="mobile-menu is-hidden" data-menu>
+        <div class="container">
+          <div class="mob-menu-top">
+            <button type="button" class="mobile-btn-close" data-menu-close>
+              <svg class="mobile-btn-icon" width="8" height="8">
+                <use href="./images/symbol-defs.svg#icon-close-modal-btn"></use>
+              </svg>
+            </button>
+            <ul class="mobile-menu-nav list">
+              <li class="mobile-item">
+                <a href="./index.html" class="link mobile-link current"
+                  >Studio</a
+                >
+              </li>
+              <li class="mobile-item">
+                <a href="./portfolio.html" class="link mobile-link"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="mobile-item">
+                <a href="" class="link mobile-link">Contacts</a>
+              </li>
+            </ul>
+          </div>
+          <div class="mob-menu-bottom">
+            <ul class="list mobile-contacts-list">
+              <li class="mobile-contact-items mobile-tel-item">
+                <a href="tel:+110001111111" class="link mobile-link-tel"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li class="mobile-contact-items mobile-email-item">
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="link mobile-link-email"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="mobile-soc-list list">
+              <li class="mobile-soc-item">
+                <a href="" class="mobile-soc-link link">
+                  <svg class="mobile-soc-icon" width="24" height="24">
+                    <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-soc-item">
+                <a href="" class="mobile-soc-link link">
+                  <svg class="mobile-soc-icon" width="24" height="24">
+                    <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-soc-item">
+                <a href="" class="mobile-soc-link link">
+                  <svg class="mobile-soc-icon" width="24" height="24">
+                    <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="mobile-soc-item">
+                <a href="" class="mobile-soc-link link">
+                  <svg class="mobile-soc-icon" width="24" height="24">
+                    <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
     <!--M A I N content-->
     <main>
       <!--H E R O section-->
@@ -554,5 +632,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

@@ -5,6 +5,12 @@
   .section-text {
     font-weight: 400;
   }
+  /* ---------------------------LOGO---------------------*/
+
+  .logo {
+    line-height: 1.33;
+  }
+
   /* ----------------------------H E R O-------------------- */
   .hero-section {
     padding-top: 188px;
