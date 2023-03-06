@@ -56,16 +56,21 @@
           </ul>
         </address>
         <!-- mobile-hamburger-menu -->
-        <button type="button" class="btn-menu-open" data-menu-open>
+        <button
+          type="button"
+          class="btn-menu-open js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
           <svg class="hamburger-icon" width="32" height="22">
             <use href="./images/symbol-defs.svg#hamburger"></use>
           </svg>
         </button>
       </div>
-      <div class="mobile-menu is-hidden" data-menu>
+      <div class="mobile-menu js-menu-container">
         <div class="container">
           <div class="mob-menu-top">
-            <button type="button" class="mobile-btn-close" data-menu-close>
+            <button type="button" class="mobile-btn-close js-close-menu">
               <svg class="mobile-btn-icon" width="8" height="8">
                 <use href="./images/symbol-defs.svg#icon-close-modal-btn"></use>
               </svg>
@@ -625,6 +630,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
-    <script src="./js/menu.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
