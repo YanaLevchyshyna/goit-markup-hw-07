@@ -7,6 +7,9 @@
   .btn-menu-open {
     display: none;
   }
+  .header {
+    padding-bottom: 10px;
+  }
 
   .logo {
     margin-right: 120px;
@@ -111,6 +114,10 @@
     line-height: 1.07;
   }
   /*-------------------F E A T U R E S--------------------- */
+  .features .section-title {
+    text-align: left;
+  }
+
   .features-list {
     display: flex;
     flex-wrap: wrap;

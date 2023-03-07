@@ -69,9 +69,11 @@
   .features-list .item {
     margin-bottom: 0;
     margin-right: 24px;
-    width: 100;
+    width: calc((100% - 72px) / 4);
   }
-
+  .features-list .item:nth-child(2) {
+    margin-right: 24px;
+  }
   .features-list .item:nth-last-child(-n + 1) {
     margin-right: 0;
   }

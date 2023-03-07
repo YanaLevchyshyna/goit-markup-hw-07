@@ -60,14 +60,14 @@
           type="button"
           class="btn-menu-open js-open-menu"
           aria-expanded="false"
-          aria-controls="mobile-menu"
+          aria-controls="mobile-menu-nav"
         >
           <svg class="hamburger-icon" width="32" height="22">
             <use href="./images/symbol-defs.svg#hamburger"></use>
           </svg>
         </button>
       </div>
-      <div class="mobile-menu js-menu-container">
+      <div class="mobile-menu js-menu-container" id="mobile-menu-nav">
         <div class="container">
           <div class="mob-menu-top">
             <button type="button" class="mobile-btn-close js-close-menu">
@@ -215,21 +215,30 @@
           <ul class="list about-list">
             <li class="item-about">
               <img
-                srcset="./images/about-desctop-1@2x.jpg"
+                srcset="
+                  ./images/computer-application.jpg 1x,
+                  ./images/about-desctop-1@2x.jpg   2x
+                "
                 src="./images/computer-application.jpg"
                 alt="computer application"
               />
             </li>
             <li class="item-about">
               <img
-                srcset="./images/about-desctop-2@2x.jpg"
+                srcset="
+                  ./images/mobile-application.jpg 1x,
+                  ./images/about-desctop-2@2x.jpg 2x
+                "
                 src="./images/mobile-application.jpg"
                 alt="computer application"
               />
             </li>
             <li class="item-about">
               <img
-                srcset="./images/about-desctop-3@2x.jpg"
+                srcset="
+                  ./images/computer-mobile.jpg    1x,
+                  ./images/about-desctop-3@2x.jpg 2x
+                "
                 src="./images/computer-mobile.jpg"
                 alt="phone and computer synchronization"
               />
@@ -244,7 +253,10 @@
           <ul class="list team-list">
             <li class="team-item">
               <img
-                srcset="./images/team-member-1@2x.jpg"
+                srcset="
+                  ./images/team-member1.jpg     1x,
+                  ./images/team-member-1@2x.jpg 2x
+                "
                 src="./images/team-member1.jpg"
                 alt="Photo by product designer Mark Guerrero"
               />
@@ -291,7 +303,10 @@
             </li>
             <li class="team-item">
               <img
-                srcset="./images/team-member-2@2x.jpg"
+                srcset="
+                  ./images/team-member2.jpg     1x,
+                  ./images/team-member-2@2x.jpg 2x
+                "
                 src="./images/team-member2.jpg"
                 alt="Photo by frontend developer Tom Ford"
               />
@@ -338,7 +353,10 @@
             </li>
             <li class="team-item">
               <img
-                srcset="./images/team-member-3@2x.jpg"
+                srcset="
+                  ./images/team-member3.jpg     1x,
+                  ./images/team-member-3@2x.jpg 2x
+                "
                 src="./images/team-member3.jpg"
                 alt="Photo by marketing Camila Garcia"
               />
@@ -385,7 +403,10 @@
             </li>
             <li class="team-item">
               <img
-                srcset="./images/team-member-4@2x.jpg"
+                srcset="
+                  ./images/team-member4.jpg     1x,
+                  ./images/team-member-4@2x.jpg 2x
+                "
                 src="./images/team-member4.jpg"
                 alt="Photo by UI desiner Daniel Wilson"
               />
