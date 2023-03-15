@@ -192,4 +192,10 @@
     flex-wrap: nowrap;
     justify-content: flex-start;
   }
+
+  /* --------M O D A L --- W I N D O W------- */
+
+  .modal {
+    top: 50%;
+  }
 }
