@@ -285,7 +285,7 @@
   }
 
   .cards-item {
-    width: calc((100% - 48px) / 2);
+    width: calc((100% - 24px) / 2);
     margin-right: 24px;
     margin-bottom: 72px;
     cursor: pointer;
