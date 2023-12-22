@@ -243,10 +243,6 @@
     justify-content: center;
   }
 
-  .buttons {
-    margin-right: 24px;
-  }
-
   .list-button .buttons:last-child {
     margin-right: 0;
   }
