@@ -234,11 +234,11 @@
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
   }
 
-  .cards-item:nth-child(3n) {
-    margin-right: 0;
-  }
   .cards-item:nth-child(2n) {
     margin-right: 24px;
+  }
+  .cards-item:nth-child(3n) {
+    margin-right: 0;
   }
 
   .cards-item:nth-last-child(-n + 3) {
